@@ -88,16 +88,3 @@ This project helps you understand:
 
 ---
 
-## 🤝 Contributions
-
-Feel free to fork, improve, and submit pull requests.
-Suggestions and improvements are always welcome!
-
----
-
-If you want, I can also generate:
-✅ A shorter version
-✅ A README with badges
-✅ A README with images or diagrams
-Just tell me!
-
