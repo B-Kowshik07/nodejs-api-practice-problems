@@ -1,5 +1,5 @@
 
-# 🚀 JavaScript • Node.js • Express.js Practice Repository
+# JavaScript • Node.js • Express.js Practice Repository
 
 This repository showcases my ongoing learning and hands-on practice in **JavaScript**, **Node.js**, and **Express.js**.
 I consistently work on backend-focused exercises, API development tasks, and logic-building challenges to strengthen my skills as a full-stack developer.
