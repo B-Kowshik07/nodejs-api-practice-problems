@@ -1,6 +1,3 @@
-Here is a **professional, recruiter-ready version**—clean, confident, and portfolio-worthy:
-
----
 
 # 🚀 JavaScript • Node.js • Express.js Practice Repository
 
