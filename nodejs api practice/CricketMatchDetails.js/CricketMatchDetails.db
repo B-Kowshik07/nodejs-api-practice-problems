@@ -1,0 +1,28 @@
+//Sample Database
+
+PRAGMA foreign_keys = ON;
+
+-- player_details table
+CREATE TABLE IF NOT EXISTS player_details (
+  player_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  player_name TEXT NOT NULL
+);
+
+-- match_details table
+CREATE TABLE IF NOT EXISTS match_details (
+  match_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  match TEXT NOT NULL,
+  year INTEGER NOT NULL
+);
+
+-- player_match_score table
+CREATE TABLE IF NOT EXISTS player_match_score (
+  player_match_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  player_id INTEGER NOT NULL,
+  match_id INTEGER NOT NULL,
+  score INTEGER DEFAULT 0,
+  fours INTEGER DEFAULT 0,
+  sixes INTEGER DEFAULT 0,
+  FOREIGN KEY (player_id) REFERENCES player_details(player_id),
+  FOREIGN KEY (match_id) REFERENCES match_details(match_id)
+);
